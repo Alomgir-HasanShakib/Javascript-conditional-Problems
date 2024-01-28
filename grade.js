@@ -12,3 +12,16 @@
 
 */
 
+const studenScores = 79;
+
+if (studenScores >= 90) {
+  console.log("A+");
+} else if (studenScores >= 80) {
+  console.log("B");
+} else if (studenScores >= 70) {
+  console.log("C");
+} else if (studenScores >= 60) {
+  console.log("D");
+} else {
+  console.log("F");
+}
