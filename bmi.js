@@ -9,3 +9,15 @@
     --BMi >= 25 and BMI <= 29.9 you are overweight.
     --otherwise you'r opese
 */
+
+const bmi = 22.5;
+
+if (bmi < 18.5) {
+  console.log("You are Under weight");
+} else if (bmi >= 18.5 && bmi <= 24.9) {
+  console.log("You are normal");
+} else if (bmi >= 25 && bmi <= 29.9) {
+  console.log("You are over weight");
+} else {
+  console.log("You are obese");
+}
